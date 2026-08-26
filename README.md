@@ -3,34 +3,10 @@ A Packet Tracer network simulation demonstrating local LAN DHCP dynamic client c
 
 A complete **Small Office/Home Office (SOHO)** network simulation featuring local LAN client allocation, standard physical edge infrastructure bridging, and functional public domain routing model via **Cisco Packet Tracer**.
 
-## 📌 Project Overview
+## 📌 Project:3 Overview
 This repository provides a configuration blueprint demonstrating secure LAN client machines automatically obtaining local network metrics and seamlessly communicating across an ISP infrastructure bridge to reach an internet-accessible host server providing HTTP web services and DNS domain lookups.
 
-┌───────────────┐
-│    myserver   │ = (HTTP / DNS Server)│ 208.67.220.220│
-└───────┬───────┘
-│ (Ethernet6)   |
-┌───────┴───────┐
-│    Cloud0     │ = (ISP WAN Bridge)
-└───────┬───────┘
-│ (Coaxial7)    |
-┌───────┴───────┐
-│ Cable Modem0  │
-└───────┬───────┘
-        |
-┌──────────┴──────────┐
-│  Wireless Router0   │ = (Edge NAT Gateway)│ WAN: 208.67.220.221 ││ LAN: 192.168.0.1    │
-└──────────┬──────────┘
-        │
-┌───────┴───────┐
-│ Switch0       │
-└───────┬───────┘
-┌────────────────┼────────────────┐┌────┴────┐     
-│   PC0         │   PC1   │       │ Laptop0  |
-|  (DHCP)       | (DHCP)  │       │  (DHCP)  |
-└─────────┘     └─────────┘       └─────────┘
-
-## 🛠️ Network Architecture Design
+<img width="1920" height="1080" alt="Cisco-SOHO-WAN-Simulation_" src="https://github.com/user-attachments/assets/4e715e05-f26b-4601-a0a1-5908844c61c9" />
 
 ### 1. Local Area Network (LAN) Configuration
 * **Gateway Interface:** `192.168.0.1` (Wireless Router0 LAN Interface)
@@ -114,8 +90,7 @@ The application framework should successfully look up the node hostname, cross t
 ## 📸 Project Success Demonstration
 
 When configuration is complete, pointing the built-in Packet Tracer Web Browser application to the host network address or domain successfully fetches and displays the following index template page:
-
- (images/Cisco-SOHO-WAN-Simulation.png)
+<img width="1920" height="1080" alt="Cisco-SOHO-WAN-Simulation" src="https://github.com/user-attachments/assets/a40c5530-5d76-4aa1-a746-a690ec191152" />
 ![Web Server Verification Success]
 
 
