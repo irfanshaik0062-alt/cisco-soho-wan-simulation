@@ -115,6 +115,6 @@ The application framework should successfully look up the node hostname, cross t
 
 When configuration is complete, pointing the built-in Packet Tracer Web Browser application to the host network address or domain successfully fetches and displays the following index template page:
 
-![Web Server Verification Success](images/web_browser_Cisco-SOHO-WAN-Simulation.png)
+![Web Server Verification Success](images/Cisco-SOHO-WAN-Simulation.png)
 
-*(Note: Create an `images` folder in your GitHub repository and save your browser verification screenshot as `web_browser_success.png` to display your results here).*
+
